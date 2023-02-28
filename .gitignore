@@ -1,0 +1,9 @@
+.idea
+/node_modules
+workspace.xml
+other.xml
+Cypress Automation.iml
+modules.xml
+vcs.xml
+
+../node_modules
