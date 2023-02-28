@@ -3,6 +3,7 @@ describe('Data_Driven_Test', () => {
         cy.fixture("orangehrm2").then((data)=>{
         cy.visit("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
 
+
         data.forEach(userdata => {
             cy.get("input[placeholder='Username']").type(userdata.username)
             cy.get("input[placeholder='Password']").type(userdata.password)
