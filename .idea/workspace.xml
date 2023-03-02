@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a41a303-e0a6-467d-ba61-02860739ee08" name="Changes" comment="revert">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/e2e/Data_Driven_Test.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Data_Driven_Test.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/fixtures/orangehrm2.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/fixtures/orangehrm2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/Data_Driven_Test.cy.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/videos/Data_Driven_Test.cy.js.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <list id="082fa7bf-afe5-4abb-a6fd-adaa61643f9d" name="git ignore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +170,9 @@
       <workItem from="1677591197650" duration="696000" />
       <workItem from="1677591955660" duration="317000" />
       <workItem from="1677592319874" duration="1554000" />
-      <workItem from="1677594331194" duration="583000" />
+      <workItem from="1677594331194" duration="1532000" />
+      <workItem from="1677690985534" duration="533000" />
+      <workItem from="1677740393888" duration="5163000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <created>1677594854560</created>
@@ -181,11 +188,36 @@
       <option name="project" value="LOCAL" />
       <updated>1677594920565</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="revert">
+      <created>1677595024529</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677595024529</updated>
+    </task>
+    <task id="LOCAL-00004" summary="revert">
+      <created>1677595220633</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677595220633</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes" />
@@ -197,6 +229,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/cypress/e2e/Data_Driven_Test.cy.js</url>
+          <line>1</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
