@@ -24,7 +24,7 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-/// <reference types="Cypress" /> 
+ ///<reference types="Cypress" />
 /// <reference types= 'cypress-xpath' />
 
 
@@ -37,3 +37,14 @@
 // })
 
 
+// Custom Command for Clicking on Link
+import cy from "cypress";
+// cy.Commands.add('clickLink' , (label) => {
+//     cy.get('a').contains(label).click();
+// })
+//
+
+
+// cy.Commands.add('clickLink', (label) => {
+//     cy.get('a').contains(label).click();
+// })

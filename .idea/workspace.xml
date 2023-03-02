@@ -5,18 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a41a303-e0a6-467d-ba61-02860739ee08" name="Changes" comment="revert">
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/Custom_Commands.cy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/Data_Driven_Test.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Data_Driven_Test.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/fixtures/orangehrm2.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/fixtures/orangehrm2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/Data_Driven_Test.cy.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/videos/Data_Driven_Test.cy.js.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/commands.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/Data_Driven_Test.cy.js.mp4" beforeDir="false" />
     </list>
     <list id="082fa7bf-afe5-4abb-a6fd-adaa61643f9d" name="git ignore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,6 +31,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MMxGBWBVz71vik6zMUER602xla" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,11 +49,85 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Colors&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cypress.Data_Driven_Test (1)">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andpercent\Downloads\Cypress Automation" />
+      <recent name="C:\Users\Andpercent\Downloads\Cypress Automation\cypress" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cypress.Custom_Commands">
+    <configuration name="CSS_Locators" type="CypressConfigurationType" factoryName="Cypress" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="workingDirectory" value="C:\Users\Andpercent\Downloads\Cypress Automation" />
+      <option name="textRange" />
+      <option name="allNames">
+        <list>
+          <option value="CSS_Locators" />
+        </list>
+      </option>
+      <option name="specsDir" />
+      <option name="specFile" value="$PROJECT_DIR$/cypress/e2e/Custom_Commands.cy.js" />
+      <option name="testName" value="CSS_Locators" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="additionalParams" value="" />
+      <option name="passParentEnvs" value="true" />
+      <option name="nodeJsRef" value="project" />
+      <option name="npmRef" value="Project" />
+      <option name="cypressPackageRef" />
+      <option name="kind" value="TEST" />
+      <option name="interactive" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Custom_Commands" type="CypressConfigurationType" factoryName="Cypress" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="workingDirectory" value="C:\Users\Andpercent\Downloads\Cypress Automation\cypress" />
+      <option name="textRange" />
+      <option name="allNames">
+        <list>
+          <option value="Custom_Commands" />
+        </list>
+      </option>
+      <option name="specsDir" />
+      <option name="specFile" value="$PROJECT_DIR$/cypress/e2e/Custom_Commands.cy.js" />
+      <option name="testName" value="Custom_Commands" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/cypress" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="additionalParams" value="" />
+      <option name="passParentEnvs" value="true" />
+      <option name="nodeJsRef" value="project" />
+      <option name="npmRef" value="Project" />
+      <option name="cypressPackageRef" />
+      <option name="kind" value="TEST" />
+      <option name="interactive" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="Data_Driven_Test (1)" type="CypressConfigurationType" factoryName="Cypress" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="false" />
       <option name="envs">
@@ -149,6 +232,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cypress.Custom_Commands" />
+        <item itemvalue="Cypress.CSS_Locators" />
         <item itemvalue="Cypress.Data_Driven_Test (1)" />
         <item itemvalue="Cypress.Data_Driven_Test" />
       </list>
@@ -172,7 +257,9 @@
       <workItem from="1677592319874" duration="1554000" />
       <workItem from="1677594331194" duration="1532000" />
       <workItem from="1677690985534" duration="533000" />
-      <workItem from="1677740393888" duration="5163000" />
+      <workItem from="1677740393888" duration="6254000" />
+      <workItem from="1677751503802" duration="8222000" />
+      <workItem from="1677777921759" duration="138000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <created>1677594854560</created>
