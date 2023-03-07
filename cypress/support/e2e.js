@@ -14,8 +14,17 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands'
-require('cypress-xpath');
+import '../support/commands'
+//require('cypress-xpath');
 
+//console.log("LOADING")
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+// require('../support/commands')
+
+//import cy from "cypress";
+
+// cy.debug()
+// cy.Commands.add('clickLink' , (label) => {
+//     cy.get('a').contains(label).click();
+// })

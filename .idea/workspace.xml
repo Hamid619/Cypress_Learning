@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a41a303-e0a6-467d-ba61-02860739ee08" name="Changes" comment="revert">
-      <change afterPath="$PROJECT_DIR$/cypress/e2e/Custom_Commands.cy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Custom_Commands.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Custom_Commands.cy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/support/commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/commands.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/Data_Driven_Test.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/e2e.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/e2e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/Custom_Commands.cy.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/videos/Custom_Commands.cy.js.mp4" afterDir="false" />
     </list>
     <list id="082fa7bf-afe5-4abb-a6fd-adaa61643f9d" name="git ignore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
       <recent name="C:\Users\Andpercent\Downloads\Cypress Automation\cypress" />
     </key>
   </component>
-  <component name="RunManager" selected="Cypress.Custom_Commands">
+  <component name="RunManager" selected="Cypress.Custom_Commands -&gt; Overwriting_Existing_Command">
     <configuration name="CSS_Locators" type="CypressConfigurationType" factoryName="Cypress" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="false" />
       <option name="envs">
@@ -81,6 +82,41 @@
       <option name="specsDir" />
       <option name="specFile" value="$PROJECT_DIR$/cypress/e2e/Custom_Commands.cy.js" />
       <option name="testName" value="CSS_Locators" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="additionalParams" value="" />
+      <option name="passParentEnvs" value="true" />
+      <option name="nodeJsRef" value="project" />
+      <option name="npmRef" value="Project" />
+      <option name="cypressPackageRef" />
+      <option name="kind" value="TEST" />
+      <option name="interactive" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Custom_Commands -&gt; Overwriting_Existing_Command" type="CypressConfigurationType" factoryName="Cypress" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="workingDirectory" value="C:\Users\Andpercent\Downloads\Cypress Automation" />
+      <option name="textRange" />
+      <option name="allNames">
+        <list>
+          <option value="Custom_Commands" />
+          <option value="Overwriting_Existing_Command" />
+        </list>
+      </option>
+      <option name="specsDir" />
+      <option name="specFile" value="$PROJECT_DIR$/cypress/e2e/Custom_Commands.cy.js" />
+      <option name="testName" value="Overwriting_Existing_Command" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <option name="envs">
         <map />
@@ -232,6 +268,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cypress.Custom_Commands -&gt; Overwriting_Existing_Command" />
         <item itemvalue="Cypress.Custom_Commands" />
         <item itemvalue="Cypress.CSS_Locators" />
         <item itemvalue="Cypress.Data_Driven_Test (1)" />
@@ -260,6 +297,9 @@
       <workItem from="1677740393888" duration="6254000" />
       <workItem from="1677751503802" duration="8222000" />
       <workItem from="1677777921759" duration="138000" />
+      <workItem from="1678105348343" duration="3222000" />
+      <workItem from="1678121178956" duration="618000" />
+      <workItem from="1678168414353" duration="8729000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <created>1677594854560</created>

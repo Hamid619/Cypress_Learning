@@ -24,7 +24,7 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
- ///<reference types="Cypress" />
+///<reference types="Cypress" />
 /// <reference types= 'cypress-xpath' />
 
 
@@ -32,19 +32,28 @@
 //     return cy.get(iframe)                                     // Getting iFrame
 //     .its('0.contentDocument.body')                            // Diging into Document
 //     .should('be.visible')                                     // Checking
-//     .then(cy.wrap); 
+//     .then(cy.wrap);
 
 // })
 
 
 // Custom Command for Clicking on Link
-import cy from "cypress";
+//import cy from "cypress";
 // cy.Commands.add('clickLink' , (label) => {
 //     cy.get('a').contains(label).click();
 // })
 //
 
 
-// cy.Commands.add('clickLink', (label) => {
-//     cy.get('a').contains(label).click();
-// })
+Cypress.Commands.add("clickLink", (label) => {
+    cy.get('a').contains(label).click();
+ });
+
+
+Cypress.Commands.add("userInput", (searchTxt) => {
+    //to input search text in Google and perform search
+    cy.get("input[type='text']").type(searchTxt);
+    cy.contains("Google Search").click();
+});
+
+
